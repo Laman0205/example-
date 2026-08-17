@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 300px;
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pulse {
+    from {
+        background-color: brown;
+        transform: scale(1);
+    }
+    to {
+        background-color: blue;
+        transform: scale(1.7);
+    }
+}
